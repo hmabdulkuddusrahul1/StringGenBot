@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from config import SUPPORT_CHAT
+from config import SUPPORT_CHAT, SUPPORT_CH
 
 
 keyboard = InlineKeyboardMarkup(
@@ -9,8 +9,7 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=SUPPORT_CHAT),
             InlineKeyboardButton(
-                text="sᴏᴜʀᴄᴇ", url="https://github.com/AnonymousX1025/StringGenBot"
-            ),
+                text="ᴄʜᴀɴɴᴇʟ", url=SUPPORT_CH),
         ],
     ]
 )
