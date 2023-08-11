@@ -11,7 +11,7 @@
         "pyrogram",
         "telethon"
     ],
-    "repository": "https://github.com/AnonymousX1025/StringGenBot",
+    "repository": "https://github.com/hmabdulkuddusrahul1/StringGenBot",
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
@@ -28,7 +28,17 @@
         "value": "",
         "required": true
       },
-      "OWNER_ID": {
+      "SUPPORT_CH": {
+        "description": "Fill your SUPPORT CH here. (Must be integer)",
+        "value": "",
+        "required": true
+      },
+        "SUPPORT_CHAT": {
+        "description": "Fill your SUPPORT_CHAT here. (Must be integer)",
+        "value": "",
+        "required": true
+      },
+        "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
         "value": "",
         "required": true
